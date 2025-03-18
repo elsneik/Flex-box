@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+
+
+    margin: auto;
+    max-width: 960px;
+    height: 960px;
+    background-color: cadetblue;
+}
+
+.item{
+    text-align: center;
+    padding-top: 36px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid darkturquoise;
+}
