@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(211, 248, 248);
+}
+.container{
+    display:flex;
+   flex-direction: row;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+    background-color: rgb(111, 242, 131);
+    height: 500px;
+    width: 1000px;
+    margin:0 auto;
+
+}
+.item{
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    padding-top: 46px;
+    text-align: center;
+}
