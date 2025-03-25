@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(219, 112, 41);
+    font-family: sans-serif;
+    color: bisque;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 16px;  /* Espacio entre los elementos */
+
+    flex-wrap: nowrap;  /* Default /  / Esto no forza el salto de línea */
+    flex-wrap: wrap;
+
+    width: 500px;
+    height: 500px;
+    background-color: rgb(219, 235, 77);
+    padding: 16px 0;
+}
+
+
+.item{
+    background-color: rgb(89, 145, 145);
+    width: 150px;
+    border: 1px solid cornsilk;
+    text-align: center;
+    /* height: 50px; */
+}
