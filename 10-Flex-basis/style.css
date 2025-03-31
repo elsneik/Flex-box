@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    background-color: blue;
+}
+
+.item{
+    flex-basis: 100%;
+
+    background-color: cadetblue;
+    border: 1px solid lightgreen;
+}
+
+.item-1{
+flex-basis: 100px;
+}
+
+.item-2{
+flex-basis: 40%;
+}
+
+.item-3{
+flex-basis: 4rem;
+}
+
+.item-4{
+flex-basis: 8rem;
+}
