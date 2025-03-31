@@ -1,0 +1,39 @@
+/*
+Flex shrink es una de las propiedades que recibe los elementos items dentro de un contenedor con display flex
+
+flex-Define cuanto puede encojerse un elemento si el contenedor es mas pequeño que el tamaño total de los elementos
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: coral;
+}
+.container{
+    display: flex;
+    background-color: blueviolet;}
+
+.item{
+        width: 300px;
+        flex-shrink: 1;
+        
+        background-color: cadetblue;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .item-1{
+        flex-shrink: 0;
+    }
+    .item-2{
+            flex-shrink: 1;
+    }
+    .item-3{
+        flex-shrink: 2;
+    }
+    .item-4{
+        flex-shrink: 3;
+    }
