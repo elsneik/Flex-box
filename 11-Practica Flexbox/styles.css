@@ -6,5 +6,102 @@
 
 
 body{
-    background-color: aqua;
+    font-family: sans-serif;
+    background-color: rgb(173, 248, 248);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height:100vh;
+  
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid darkslateblue;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    background-color: rgb(133, 136, 136);
+}
+aside{
+    background-color: rgb(105, 165, 255);
+}
+section{
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-content: flex-start;
+    background-color: cadetblue;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    margin-bottom: 2rem;
+    color: blueviolet;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: rgb(77, 1, 255);
+    margin-bottom: 0.5rem;
+}
+a{
+color: darkslateblue;
+text-decoration: none;
+}
+
+:hover{
+    color: rgb(63, 63, 228);
+}
+    
+nav{
+    display: flex;
+    gap: 1rem;
+ 
+}
+.copyright{
+
+}
+.social-media{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.card{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(62, 34, 239);
+    padding: 5rem;
+    background-color: bisque;
+}
+.card:hover{
+    background-color: aquamarine;
+}
+h3{
+    margin: 0.5rem 0;
+    color: rgb(0, 0, 0);
+}
+.social-media a{
+    padding: 0.5rem;
+    font-size: 1.2rem;
 }
